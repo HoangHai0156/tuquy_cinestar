@@ -1,0 +1,95 @@
+.registerContent {
+    position: relative;
+    width: 100%;
+    height: 64px;
+    /* background: url(../images/pattern.png) repeat center top; */
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    border-bottom: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.registerContent.off {
+    opacity: 1
+}
+
+.registerWrap {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    z-index: 19;
+}
+
+.registerWrap ul {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.registerWrap ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.registerWrap ul li a {
+    font-family: 'avantgarde-demi';
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #e00d7a;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.registerWrap ul li:not(.active) a:hover {
+    color: #f37520;
+}
+
+.registerWrap ul li.btn-register {
+    /* background: url(../images/icon-register.png) no-repeat left 1px; */
+}
+
+.registerWrap ul li.btn-register a {
+    padding: 25px 0 23px 71px;
+    display: block;
+}
+
+.registerWrap ul li.btn-login {
+    /* background: url(../images/icon-login.png) no-repeat left top; */
+}
+
+.registerWrap ul li.btn-login a {
+    padding: 25px 0 23px 42px;
+    display: block;
+}
+
+.registerWrap ul li.active a {
+    color: #f37520;
+}
+
+.hotline {
+    float: right;
+    font-family: 'Futurab';
+    font-weight: normal;
+    font-size: 30px;
+    color: #f37520;
+    /* background: url(../images/icon-call.png) no-repeat left 7px; */
+    padding: 15px 0 19px 58px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.hotline:hover {
+    color: #e00d7a;
+}
+
+.hoverBox {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    display: none;
+    z-index: 2
+}
