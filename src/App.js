@@ -3,10 +3,15 @@ import './App.css';
 import Schedules from './components/Schedules/Schedules';
 import Home from './components/home';
 
+import ContentPage from './components/Schedules/ContentPage';
+
 function App() {
   return (
-    // <Schedules />
-    <Home />
+    <>
+      {/* <Schedules /> */}
+      <ContentPage />
+    </>
+
   );
 }
 

@@ -2538,7 +2538,7 @@ svg:not(:root) {
 }
 
 .input-check input:checked+span {
-    /* background: url(../images/icon-check-active.png) no-repeat center center; */
+    background: url(../images/icon-check-active.png) no-repeat center center;
 }
 
 .input-but {
@@ -3378,7 +3378,7 @@ sub {
 }
 
 .payment_check div input:checked+span {
-    /* background: url(../images/icon-check-active.png) no-repeat center center */
+    background: url(../images/icon-check-active.png) no-repeat center center
 }
 
 .check_terms_condition+span.check_terms_condition_icon {
@@ -3435,7 +3435,7 @@ sub {
 }
 
 .payment_method div input:checked+span.payment_method_icon {
-    /* background: url(../images/icon-rad1-active.png) no-repeat center center */
+    background: url(../images/icon-rad1-active.png) no-repeat center center
 }
 
 .payment_method div:nth-child(1):after {
@@ -3444,7 +3444,7 @@ sub {
     display: block;
     width: 100%;
     height: 36px;
-    /* background: url(../images/pay_01.jpg) no-repeat left top; */
+    background: url(../images/pay_01.jpg) no-repeat left top;
     -webkit-background-size: contain;
     background-size: contain;
 }
@@ -3455,7 +3455,7 @@ sub {
     display: block;
     width: 100%;
     height: 36px;
-    /* background: url(../images/pay_02.jpg) no-repeat left top; */
+    background: url(../images/pay_02.jpg) no-repeat left top;
     -webkit-background-size: contain;
     background-size: contain;
 }
@@ -3467,7 +3467,7 @@ sub {
     display: block;
     width: 100%;
     height: 36px;
-    /* background: url(../images/momo.png) no-repeat left top; */
+    background: url(../images/momo.png) no-repeat left top;
     -webkit-background-size: contain;
     background-size: contain;
 }
@@ -5728,13 +5728,13 @@ sub {
     display: inline-block;
     width: 42px;
     height: 42px;
-    /* background: url(../images/start-comment.png) no-repeat center center; */
+    background: url(../images/start-comment.png) no-repeat center center;
     vertical-align: middle;
     margin-left: -3px;
 }
 
 .l-comment.active {
-    /* background: url(../images/start-comment-active.png) no-repeat center center; */
+    background: url(../images/start-comment-active.png) no-repeat center center;
 }
 
 .film-details-wrap .film-item-but {
@@ -6921,7 +6921,7 @@ sub {
 }
 
 .faq li .ask .st-arrow {
-    /* background: url(../images/arrow7.png) no-repeat center center; */
+    background: url(../images/arrow7.png) no-repeat center center;
     width: 30px;
     height: 30px;
     position: absolute;
@@ -9617,7 +9617,7 @@ p.welcom:after {
 }
 
 .close-pics-small {
-    /* background: url(../images/close3.png) no-repeat center center; */
+    background: url(../images/close3.png) no-repeat center center;
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -9890,7 +9890,7 @@ p.welcom:after {
 
 /* mouse grab icon */
 .grabbing {
-    /* cursor: url(../images/grabbing.png) 8 8, move; */
+    cursor: url(../images/grabbing.png) 8 8, move;
 }
 
 /* fix */
@@ -12866,7 +12866,7 @@ p.welcom:after {
     }
 
     .row-hour ul {
-        /*white-space:nowrap;*/
+        white-space:nowrap;
     }
 
     .schedule-item .film-item-txt h3 {
