@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 
-const questions = [896, 267, 98, 608, 65, 336, 160]
 
 function ContentPage() {
     const [activeIndex, setActiveIndex] = useState(null);
