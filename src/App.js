@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import logo from "./logo.svg";
 import "./App.css";
 import Schedules from "./components/Schedules/Schedules";
@@ -9,31 +8,22 @@ import Promotion from "./components/Header/Promotion";
 import PlayingMovies from "./components/Header/PlayingMovies";
 
 import ContentPage from './components/Schedules/ContentPage';
+import Footer from "./components/Footer/Footer";
+import ShowingMovies from "./components/ShowingMovies/ShowingMovies";
 
 function App() {
   return (
-<<<<<<< HEAD
     <>
-      {/* <Schedules /> */}
+      {/* <Header /> */}
+      <User />
+      <Slider />
+      <ShowingMovies />
       <ContentPage />
+      <Footer />
     </>
 
-=======
-    <PlayingMovies/>
-    // <Home/>
->>>>>>> origin/component-header
-=======
-import './App.css';
-// import Schedules from './components/Schedules/Schedules';
-// import Home from './components/home';
-import Footer from './components/Footer/Footer';
 
-function App() {
-  return (
-    // <Schedules />
-    // <Home />
-    <Footer />
->>>>>>> origin/footer
+
   );
 }
 
