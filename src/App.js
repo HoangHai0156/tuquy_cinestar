@@ -6,6 +6,7 @@ import Slider from "./components/Header/Slider";
 import ContentPage from './components/Schedules/ContentPage';
 import Footer from "./components/Footer/Footer";
 import ShowingMovies from "./components/ShowingMovies/ShowingMovies";
+import TheaterAndPrice from './components/TheaterAndPrice/TheaterAndPrice';
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
       {/* <Header /> */}
       <User />
       <Slider />
-      <ShowingMovies />
-      <ContentPage />
+
+      <TheaterAndPrice />
+
       <Footer />
+
     </>
-
-
 
   );
 }
