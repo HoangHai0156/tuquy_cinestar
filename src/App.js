@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from "./logo.svg";
 import "./App.css";
 import Schedules from "./components/Schedules/Schedules";
@@ -21,6 +22,18 @@ function App() {
     <PlayingMovies/>
     // <Home/>
 >>>>>>> origin/component-header
+=======
+import './App.css';
+// import Schedules from './components/Schedules/Schedules';
+// import Home from './components/home';
+import Footer from './components/Footer/Footer';
+
+function App() {
+  return (
+    // <Schedules />
+    // <Home />
+    <Footer />
+>>>>>>> origin/footer
   );
 }
 
