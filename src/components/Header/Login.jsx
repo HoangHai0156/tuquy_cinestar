@@ -13,11 +13,11 @@ export default function Login(props) {
                 <h3 className="user-title">Vui lòng nhập tên người dùng(email) và mật khẩu</h3>
                 <form id="login-top">
                     <div className="require-col">
-                        <div className="input-text username">
-                            <input name="username" id="login_email" type="text" defaultValue />
+                        <div className="input-text username" >
+                            <input name="username" id="login_email" type="text" placeholder='user@gmail.com' />
                         </div>
                         <div className="input-text password">
-                            <input name="password" id="login_password" type="password" defaultValue />
+                            <input name="password" id="login_password" type="password" placeholder='******' />
                         </div>
                         <div className="input-but">
                             <input type="button" defaultValue="Đăng nhập" id="btn-login-tab" />
