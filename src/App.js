@@ -27,12 +27,7 @@ function App() {
     <>
 
       {/* <Header /> */}
-<<<<<<< HEAD
-      <Layout>
-        <Discount/>
-      </Layout>
-    </>
-=======
+
       {/* <User />
       <Slider />
 
@@ -49,8 +44,6 @@ function App() {
       <NavBar />
 
     </>
-
->>>>>>> origin/nhat-rap-va-gia
   );
 }
 
