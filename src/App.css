@@ -19,7 +19,7 @@
     src: url('../fonts/avantgdemi.eot?#iefix') format('embedded-opentype'),
         url('../fonts/avantgdemi.woff') format('woff'),
         url('../fonts/avantgdemi.ttf') format('truetype');
-        /* url('../fonts/avantgdemi.svg#avantgarde-demi') format('svg'); */
+    /* url('../fonts/avantgdemi.svg#avantgarde-demi') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +30,7 @@
     src: url('../fonts/myriadpro-light.eot?#iefix') format('embedded-opentype'),
         url('../fonts/myriadpro-light.woff') format('woff'),
         url('../fonts/myriadpro-light.ttf') format('truetype');
-        /* url('../fonts/myriadpro-light.svg#MyriadLight') format('svg'); */
+    /* url('../fonts/myriadpro-light.svg#MyriadLight') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -41,7 +41,7 @@
     src: url('../fonts/myriadpro-italic.eot?#iefix') format('embedded-opentype'),
         url('../fonts/myriadpro-italic.woff') format('woff'),
         url('../fonts/myriadpro-italic.ttf') format('truetype');
-        /* url('../fonts/myriadpro-italic.svg#MyriadItalic') format('svg'); */
+    /* url('../fonts/myriadpro-italic.svg#MyriadItalic') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -52,7 +52,7 @@
     src: url('../fonts/myriadpro-semibold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/myriadpro-semibold.woff') format('woff'),
         url('../fonts/myriadpro-semibold.ttf') format('truetype');
-        /* url('../fonts/myriadpro-semibold.svg#MyriadBold') format('svg'); */
+    /* url('../fonts/myriadpro-semibold.svg#MyriadBold') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -63,7 +63,7 @@
     src: url('../fonts/myriadpro-cond.eot?#iefix') format('embedded-opentype'),
         url('../fonts/myriadpro-cond.woff') format('woff'),
         url('../fonts/myriadpro-cond.ttf') format('truetype');
-        /* url('../fonts/myriadpro-cond.svg#MyriadCondensed') format('svg'); */
+    /* url('../fonts/myriadpro-cond.svg#MyriadCondensed') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -74,7 +74,7 @@
     src: url('../fonts/myriadpro-regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/myriadpro-regular.woff') format('woff'),
         url('../fonts/myriadpro-regular.ttf') format('truetype');
-        /* url('../fonts/myriadpro-regular.svg#MyriadRegular') format('svg'); */
+    /* url('../fonts/myriadpro-regular.svg#MyriadRegular') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -85,7 +85,7 @@
     src: url('../fonts/futurab.eot?#iefix') format('embedded-opentype'),
         url('../fonts/futurab.woff') format('woff'),
         url('../fonts/futurab.ttf') format('truetype');
-        /* url('../fonts/futurab.svg#Futurab') format('svg'); */
+    /* url('../fonts/futurab.svg#Futurab') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -96,7 +96,7 @@
     src: url('../fonts/futurab-bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/futurab-bold.woff') format('woff'),
         url('../fonts/futurab-bold.ttf') format('truetype');
-        /* url('../fonts/futurab-bold.svg#Futurab-bold') format('svg'); */
+    /* url('../fonts/futurab-bold.svg#Futurab-bold') format('svg'); */
     font-weight: normal;
     font-style: normal;
 }
@@ -2084,10 +2084,10 @@ svg:not(:root) {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 95%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: -15px 10px 10px rgba(0, 0, 0, 0.5);
     border: 1px solid #fbdbbd;
     padding: 25px 20px;
     text-align: center;
@@ -2097,6 +2097,15 @@ svg:not(:root) {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     opacity: 0;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+    transform: scale(0.3);
+
+}
+
+.top-images:hover .movie-over {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 1;
 }
 
 .movie-over p {
@@ -7771,7 +7780,7 @@ p.welcom:before {
     position: absolute;
     left: 0;
     top: 0;
-    /* background: url(../images/icon-welcome-bf.png) no-repeat center top; */
+    background: url(../images/icon-welcome-bf.png) no-repeat center top;
 }
 
 p.welcom:after {
@@ -7782,7 +7791,7 @@ p.welcom:after {
     position: absolute;
     right: 0;
     top: 15px;
-    /* background: url(../images/icon-welcome-af.png) no-repeat center top; */
+    background: url(../images/icon-welcome-af.png) no-repeat center top;
 }
 
 .cinema-img-content {
@@ -12544,14 +12553,9 @@ p.welcom:after {
         background-color: #e00d7a;
     }
 
-
     .movie-over span.detail-link {
         transition: none;
         -webkit-transition: none;
-    }
-
-    .movie-over span.detail-link:hover {
-        background-color: #f18720;
     }
 
     .movie-slide .slide-controls {
@@ -12560,6 +12564,10 @@ p.welcom:after {
 
     .movie-slide .slide-pagination {
         display: block;
+    }
+
+    .movie-over span.detail-link:hover {
+        background-color: #f18720;
     }
 
     .movie-over .trailler-btn:hover {
@@ -12866,7 +12874,7 @@ p.welcom:after {
     }
 
     .row-hour ul {
-        white-space:nowrap;
+        white-space: nowrap;
     }
 
     .schedule-item .film-item-txt h3 {
@@ -15680,10 +15688,6 @@ p.welcom:after {
 
 }
 
-
-
-
-
 @media print {
 
     body,
@@ -15748,4 +15752,41 @@ p.welcom:after {
 
 .fontsize14 {
     font-size: 14px !important;
+}
+
+.slide-grid {
+    position: relative;
+    overflow: hidden;
+    transform-origin: center center;
+    /* Đặt tâm ảnh là trung tâm */
+    transition: transform 0.3s;
+    /* Thêm hiệu ứng chuyển đổi cho phần tử cha */
+    transform: scale(1);
+    /* Kích thước ban đầu */
+}
+
+.slide-grid:hover {
+    transform: scale(1.1);
+    /* Phóng to từ tâm ảnh */
+}
+
+.movie-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    transform: translateY(100%);
+}
+
+.slide-grid:hover .movie-info {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
