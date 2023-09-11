@@ -4,38 +4,22 @@ import Login from './Login'
 
 export default function User() {
 
-    const [show, setShow] = useState({
-        loginShow: false,
-        registerShow: false
-    })
-
-    const handleSetRegShow = () =>{
-        let showReg = show.registerShow ? false : true;
-        setShow({
-            ...show,
-            registerShow: showReg,
-            loginShow: false
-        })
-    }
-
-    const handleSetLogShow = () =>{
-        let showLog = show.loginShow ? false : true;
-        setShow({
-            ...show,
-            loginShow: showLog,
-            registerShow: false
-        })
+    const [selected, setSelected] = useState('');
+    const handleSetSelected = (section) =>{
+        selected === section ? setSelected('') : setSelected(section)
     }
 
     return (
-        <div className={`register-content ${show.loginShow || show.registerShow ? 'showbox':''}`}>
+        <div className={`register-content ${selected ? 'showbox' : ''}`}>
             <div className="register-wrap">
                 {/*//user-nav//*/}
                 <ul>
-                    <li className="btn-register" style={{ cursor: 'pointer' }} onClick={()=>handleSetRegShow()}>
+                    <li className="btn-register" style={{ cursor: 'pointer' }} onClick={()=>handleSetSelected('reg')} 
+                    >
                         <a data-tmp="Thông tin thành viên">Đăng ký thành viên</a>
                     </li>
-                    <li className="btn-login" style={{ cursor: 'pointer' }} onClick={()=>handleSetLogShow()}>
+                    <li className="btn-login" style={{ cursor: 'pointer' }} onClick={()=>handleSetSelected('log')} 
+                    >
                         <a data-tmp="Đăng xuất" >Đăng nhập</a>
                     </li>
                 </ul>
@@ -44,10 +28,10 @@ export default function User() {
                 {/*//user-form//*/}
                 <div className="block-user ">
                     {/*register-tab*/}
-                    <Register registerShow={show.registerShow} />
+                    <Register registerShow={selected === 'reg'} />
                     {/*register-tab*/}
                     {/*login-tab*/}
-                    <Login loginShow={show.loginShow} />
+                    <Login loginShow={selected === 'log'} />
                     {/*login-tab*/}
                 </div>
                 {/*//user-form//*/}
