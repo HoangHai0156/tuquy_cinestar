@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function PlayingMovies() {
+export default function SlideShowMovies() {
 
     const [image, setImage] = useState({
         transform: 0,
@@ -19,7 +19,7 @@ export default function PlayingMovies() {
                     transform: image.transform - 240,
                 })
             }
-        }, 5000)
+        }, 3000)
         console.log(image.transform);
     })
 

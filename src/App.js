@@ -5,7 +5,12 @@ import User from "./components/Header/User";
 import Slider from "./components/Header/Slider";
 import ContentPage from './components/Schedules/ContentPage';
 import Footer from "./components/Footer/Footer";
-import ShowingMovies from "./components/ShowingMovies/ShowingMovies";
+import { Route, Routes } from "react-router-dom";
+import MovieDetail from "./components/ShowingMovies/MovieDetail/MovieDetail";
+import TheaterAndPrice from "./components/TheaterAndPrice/TheaterAndPrice";
+import SlideShowMovies from "./components/ShowingMovies/SlideShow/SlideShowMovies";
+import Header from "./components/Header/Header"
+import NavBar from "./components/Dashboard/NavBar/NavBar";
 
 import CartSection from "./components/Header/CartSection";
 import Home from "./components/home";
@@ -22,10 +27,30 @@ function App() {
     <>
 
       {/* <Header /> */}
+<<<<<<< HEAD
       <Layout>
         <Discount/>
       </Layout>
     </>
+=======
+      {/* <User />
+      <Slider />
+
+      <Routes>
+				<Route path='/' element={<MovieDetail />} />
+				<Route path='/phim' element={<MovieDetail />} />
+				<Route path='/rap-va-gia' element={<TheaterAndPrice />} />
+
+			
+			</Routes>
+
+      <Footer /> */}
+
+      <NavBar />
+
+    </>
+
+>>>>>>> origin/nhat-rap-va-gia
   );
 }
 

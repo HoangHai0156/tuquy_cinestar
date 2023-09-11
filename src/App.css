@@ -5757,7 +5757,7 @@ sub {
     display: inline-block;
     vertical-align: middle;
     width: 180px;
-    /* background: rgba(0, 0, 0, 0.5) url(../images/icon-play.png) no-repeat -14px center; */
+    background: rgba(0, 0, 0, 0.5) url(../images/icon-play.png) no-repeat -14px center;
     text-align: left;
     padding-left: 52px;
     transition: all 0.3s ease-in-out;
