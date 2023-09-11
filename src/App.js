@@ -1,32 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-
-import User from './components/Header/User';
-import Slider from './components/Header/Slider';
-import ContentPage from './components/Schedules/ContentPage';
-import Footer from './components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
-import MovieDetail from './components/ShowingMovies/MovieDetail/MovieDetail';
-import TheaterAndPrice from './components/TheaterAndPrice/TheaterAndPrice';
-import SlideShowMovies from './components/ShowingMovies/SlideShow/SlideShowMovies';
-import Header from './components/Header/Header';
-
-import CartSection from './components/Header/CartSection';
-import Home from './components/home';
-import Layout from './components/Layout/Layout';
-import Schedules from './components/Schedules/Schedules';
-import MemberSlide from './components/Discount/MemberSlide';
-import PromotionList from './components/Discount/PromotionList';
-import CFriend from './components/Discount/CFriend';
-import Discount from './components/Discount/Discount';
+import Home from './pages/Home';
+import Films from './pages/Films';
+import SchedulesPage from './pages/SchedulesPage';
+import TheaterPricePage from './pages/TheaterPricePage';
+import OffersPage from './pages/OffersPage';
+import QnAPage from './pages/QnAPage';
+import IntroductionPage from './pages/IntroductionPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
     return (
         <>
             <Routes>
-                <Route path="/" element={<MovieDetail />} />
-                <Route path="/phim" element={<MovieDetail />} />
-                <Route path="/rap-va-gia" element={<TheaterAndPrice />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/phim" element={<Films />} />
+                <Route path="/lichchieu" element={<SchedulesPage />} />
+                <Route path="/rapvagia" element={<TheaterPricePage />} />
+                <Route path="/khuyenmai" element={<OffersPage />} />
+                <Route path="/hoivadap" element={<QnAPage />} />
+                <Route path="/gioithieu" element={<IntroductionPage />} />
+                <Route path="/lienhe" element={<ContactPage />} />
             </Routes>
         </>
     );
