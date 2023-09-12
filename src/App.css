@@ -2082,12 +2082,12 @@ svg:not(:root) {
 
 .movie-over {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 95%;
-    height: 100%;
+    left: 5px;
+    top: 10px;
+    width: 220px;
+    height: 370px;
     background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: -15px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 5px 2px rgba(0, 0, 0, 0.7);
     border: 1px solid #fbdbbd;
     padding: 25px 20px;
     text-align: center;
