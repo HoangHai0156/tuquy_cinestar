@@ -23,7 +23,6 @@ export default function Promotion() {
                 })
             }
         }, 5000)
-        console.log(image.transform);
     })
 
     const handleSelectPage = (tran, page) => {

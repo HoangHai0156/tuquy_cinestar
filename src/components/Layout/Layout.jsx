@@ -16,7 +16,6 @@ export default function Layout({ children }) {
             <div className="overlay-video" />
             <div className="overlay-dark" />
             {/*LOAD-PAGE*/}
-            <div className="nav-click" style={{ display: 'none', opacity: 0 }} />
             {/*HEAD*/}
             <Header />
             {/*HEAD*/}
