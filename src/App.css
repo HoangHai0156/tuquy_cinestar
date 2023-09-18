@@ -3731,7 +3731,7 @@ sub {
     display: inline-block;
     width: 30px;
     height: 30px;
-    /* background: url(../images/icon-minus.png) no-repeat center center; */
+    background: url(../images/icon-minus.png) no-repeat center center;
     vertical-align: middle;
     text-indent: 9999px;
     overflow: hidden;
@@ -3739,9 +3739,9 @@ sub {
 
 .add {
     display: inline-block;
-    /* width: 30px;
+    width: 30px;
     height: 30px;
-    background: url(../images/icon-add.png) no-repeat center center; */
+    background: url(../images/icon-add.png) no-repeat center center;
     vertical-align: middle;
     text-indent: 9999px;
     overflow: hidden;
@@ -4094,13 +4094,13 @@ sub {
 }
 
 .cinema-seat td.single {
-    /* background: #ededed url(../images/single-chair.png) no-repeat center top; */
+    background: #ededed url(../images/single-chair.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
 .bed-chair td.single {
-    /* background: #ededed url(../images/single-chair-1.png) no-repeat center top; */
+    background: #ededed url(../images/single-chair-1.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
@@ -4112,7 +4112,7 @@ sub {
 
 .cinema-seat td.couple {
     cursor: pointer;
-    /* background: #ededed url(../images/couple-chair.png) no-repeat center top; */
+    background: #ededed url(../images/couple-chair.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     width: 86px;
@@ -4143,13 +4143,13 @@ sub {
 }
 
 .cinema-seat div.single {
-    /* background: #ededed url(../images/single-chair.png) no-repeat center top; */
+    background: #ededed url(../images/single-chair.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
 .bed-chair div.single {
-    /* background: #ededed url(../images/single-chair-1.png) no-repeat center top; */
+    background: #ededed url(../images/single-chair-1.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
@@ -4161,7 +4161,7 @@ sub {
 
 .cinema-seat div.couple {
     cursor: pointer;
-    /* background: #ededed url(../images/couple-chair.png) no-repeat center top; */
+    background: #ededed url(../images/couple-chair.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     width: 86px;
@@ -4189,25 +4189,25 @@ sub {
 }
 
 .opera div.single.color1 {
-    /* background: #ededed url(../images/single-chair1.png) no-repeat center top; */
+    background: #ededed url(../images/single-chair1.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
 .opera div.single.color2 {
-    /* background: #ededed url(../images/single-chair2.png) no-repeat center top; */
+    background: #ededed url(../images/single-chair2.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
 .opera div.single.color3 {
-    /* background: #ededed url(../images/single-chair3.png) no-repeat center top; */
+    background: #ededed url(../images/single-chair3.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
 .opera div.single.color4 {
-    /* background: #ededed url(../images/single-chair4.png) no-repeat center top; */
+    background: #ededed url(../images/single-chair4.png) no-repeat center top;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
@@ -4319,27 +4319,27 @@ sub {
 }
 
 .cinema-note li.single {
-    /* background: url(../images/single-chair.png) no-repeat left top; */
+    background: url(../images/single-chair.png) no-repeat left top;
     padding-left: 50px;
 }
 
 .cinema-note li.single-1 {
-    /* background: url(../images/single-chair-1.png) no-repeat left top; */
+    background: url(../images/single-chair-1.png) no-repeat left top;
     padding-left: 50px;
 }
 
 .cinema-note li.couple {
-    /* background: url(../images/couple-chair.png) no-repeat left top; */
+    background: url(../images/couple-chair.png) no-repeat left top;
     padding-left: 90px;
 }
 
 .cinema-note li.busy {
-    /* background: url(../images/single-chair.png) no-repeat left -92px; */
+    background: url(../images/single-chair.png) no-repeat left -92px;
     padding-left: 50px;
 }
 
 .cinema-note li.choosing {
-    /* background: url(../images/single-chair.png) no-repeat left -46px; */
+    background: url(../images/single-chair.png) no-repeat left -46px;
     padding-left: 50px;
 }
 
@@ -4785,7 +4785,7 @@ sub {
     width: 30px;
     height: 30px;
     margin: 0 5px;
-    /* background: url(../images/icon-minus.png) no-repeat center center; */
+    background: url(../images/icon-minus.png) no-repeat center center;
     vertical-align: middle;
     text-indent: 9999px;
     overflow: hidden;
@@ -4800,7 +4800,7 @@ sub {
     width: 30px;
     height: 30px;
     margin: 0 5px;
-    /* background: url(../images/icon-add.png) no-repeat center 7px; */
+    background: url(../images/icon-add.png) no-repeat center 7px;
     vertical-align: middle;
     text-indent: 9999px;
     overflow: hidden;

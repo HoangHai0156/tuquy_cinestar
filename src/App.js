@@ -8,20 +8,25 @@ import OffersPage from './pages/OffersPage';
 import QnAPage from './pages/QnAPage';
 import IntroductionPage from './pages/IntroductionPage';
 import ContactPage from './pages/ContactPage';
+import Layout from './components/Layout/Layout';
+import Order from './components/Order/Order';
 
 function App() {
     return (
         <>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/phim" element={<Films />} />
-                <Route path="/lichchieu" element={<SchedulesPage />} />
-                <Route path="/rapvagia" element={<TheaterPricePage />} />
-                <Route path="/khuyenmai" element={<OffersPage />} />
-                <Route path="/hoivadap" element={<QnAPage />} />
-                <Route path="/gioithieu" element={<IntroductionPage />} />
-                <Route path="/lienhe" element={<ContactPage />} />
-            </Routes>
+            {/* <Layout>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/phim" element={<Films />} />
+                    <Route path="/lichchieu" element={<SchedulesPage />} />
+                    <Route path="/rapvagia" element={<TheaterPricePage />} />
+                    <Route path="/khuyenmai" element={<OffersPage />} />
+                    <Route path="/hoivadap" element={<QnAPage />} />
+                    <Route path="/gioithieu" element={<IntroductionPage />} />
+                    <Route path="/lienhe" element={<ContactPage />} />
+                </Routes>
+            </Layout> */}
+            <Order />
         </>
     );
 }
